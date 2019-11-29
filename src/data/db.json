@@ -1,0 +1,20 @@
+{
+  "surveys": [],
+  "answers": [],
+  "users": [
+    {
+      "name": "Radosław ",
+      "surname": "Tomaszewski",
+      "email": "r.tomaszewski@gmail.com",
+      "password": "abcdef",
+      "id": 0
+    },
+    {
+      "name": "Marek ",
+      "surname": "Rosiński",
+      "email": "m.rosinski@gmail.com",
+      "password": "12345",
+      "id": 1
+    }
+  ]
+}
