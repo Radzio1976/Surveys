@@ -7,7 +7,7 @@ import Register from "./pages/Register";
 import AddSurvey from "./pages/AddSurvey";
 import Survey from './pages/Survey';
 import Nav from './components/Nav';
-import MySurveys from "./components/MySurveys";
+import MySurveys from "./pages/MySurveys";
 
 
 const AuthContext = createContext()
