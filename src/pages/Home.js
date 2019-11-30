@@ -1,7 +1,6 @@
 import React from 'react';
 import Axios from "axios";
 import prettyURLConverter from '../utils/prettyURLConverter';
-import { AuthContext } from '../App'
 
 class Home extends React.Component {
     state = {
@@ -29,7 +28,7 @@ class Home extends React.Component {
                         <article className="slider-left">
                             <h1 className="slider-title">Stwórz własny sondaż</h1>
                             <h3>Dzięki naszej stronie możesz zbadać opinię innych na interesujący Cię temat</h3>
-                            <div class="button_cont" align="center"><a class="example_a" href="/add-survey" rel="nofollow noopener">Stwórz własną ankietę</a></div>
+                            <div className="button_cont" align="center"><a className="example_a" href="/add-survey" rel="nofollow noopener">Stwórz własną ankietę</a></div>
                         </article>
                         <div className="home-image">
                         </div>
@@ -39,7 +38,7 @@ class Home extends React.Component {
                     {this.state.surveys.map((value, index) => {
                         console.log(value.id)
                         return (
-                            <div className="home-main-container">
+                            <div key={index} className="home-main-container">
                                 <div className="home-main-survey-left" key={index}>
                                     <h1>{value.name}</h1>
                                     <h2>Autor {value.author}</h2>

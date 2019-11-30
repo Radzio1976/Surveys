@@ -127,14 +127,14 @@ class Survey extends React.Component {
                             <div className="survey-main">
                                 <h1>{this.state.author}</h1>
                                 <h2>{this.state.name}</h2>
-                                <button className="main-nav-login-button button chart-type-button" style={{ position: "absolute", top: "202px", right: "0px" }} onClick={this.changeChartType} >{this.state.chartType === "column" ? "Wykres kołowy" : "Wykres słupkowy"}</button>
+                                <button className="main-nav-login-button button chart-type-button" style={{ position: "absolute", top: "168px", right: "0px" }} onClick={this.changeChartType} >{this.state.chartType === "column" ? "Wykres kołowy" : "Wykres słupkowy"}</button>
                                 <form onSubmit={this.addAnswer}>
                                     {this.state.questions.map((question, questionID) => {
-                                        const dataPoints = []
-                                        let sum = 0
-                                        for (let i = 0; i < question.answers.length; i++) {
+                                        // const dataPoints = []
+                                        // let sum = 0
+                                        //  for (let i = 0; i < question.answers.length; i++) {
 
-                                        }
+                                        // }
                                         return (
                                             <React.Fragment key={questionID}>
                                                 <h3 style={{ color: "white", marginTop: "5px", marginBottom: "5px" }}>{question.ask}</h3>
@@ -148,7 +148,7 @@ class Survey extends React.Component {
                                                         )
                                                     })
                                                 }
-                                                <button className="main-nav-login-button button chart-button" style={{ display: "block" }}>Zatwierdź</button>
+                                                <button className="main-nav-login-button button chart-button" style={{ display: this.state.questions.length - 1 === questionID ? "block" : "none", position: "absolute", bottom: "-80px", left: "0px" }}>Zatwierdź</button>
                                                 <CJSChart options={
                                                     {
                                                         exportEnabled: true,
@@ -175,7 +175,7 @@ class Survey extends React.Component {
                                 {
                                     isAuth ?
                                         <>
-                                            <button className="main-nav-login-button button remove-chart-button" onClick={this.removeSurvey} >Usuń sondę</button>
+                                            <button className="main-nav-login-button button remove-chart-button" style={{ position: "absolute", bottom: "-55px", right: "0px" }} onClick={this.removeSurvey} >Usuń sondę</button>
                                         </> : ""
                                 }
                                 <h3>{this.state.error}</h3>

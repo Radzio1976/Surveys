@@ -345,6 +345,33 @@
       ],
       "surveyId": 4,
       "id": 21
+    },
+    {
+      "answers": [
+        "TAK",
+        "NIE WIEM",
+        "NIE",
+        "RACZEJ NIE"
+      ],
+      "surveyId": 1,
+      "id": 22
+    },
+    {
+      "answers": [
+        "TAK",
+        "TAK",
+        "TAK",
+        " TAK"
+      ],
+      "surveyId": 1,
+      "id": 23
+    },
+    {
+      "answers": [
+        "NIE"
+      ],
+      "surveyId": 5,
+      "id": 24
     }
   ],
   "users": [

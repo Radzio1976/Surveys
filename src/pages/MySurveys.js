@@ -42,7 +42,7 @@ class MySurveys extends React.Component {
                                                 {this.state.mySurveys.map((value, index) => {
                                                     console.log(value.id)
                                                     return (
-                                                        <div className="home-main-container">
+                                                        <div key={index} className="home-main-container">
                                                             <div className="home-main-survey-left" key={index}>
                                                                 <h1>{value.name}</h1>
                                                                 <h2>Autor {value.author}</h2>

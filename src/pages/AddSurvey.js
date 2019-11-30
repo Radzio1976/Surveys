@@ -112,6 +112,10 @@ class AddSurvey extends React.Component {
                                             )
                                         })
                                     }
+                                    <label className="form-label add-survey-label">Utwórz pytanie</label>
+                                    <br />
+                                    <input className="form-input add-survey-input" type="text" name="ask" value={this.state.ask} onChange={this.handleChange} placeholder="Utwórz pytanie" />
+                                    <button className="main-nav-login-button button" onClick={this.addAsk}>Dodaj pytanie</button>
                                 </>
                             )
                         })
