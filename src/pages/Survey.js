@@ -112,9 +112,7 @@ class Survey extends React.Component {
                     this.props.history.push("/")
                 })
             } else {
-                this.setState({
-                    error: "Nie możesz usunąć tej sondy, bo nie należy do Ciebie"
-                })
+                alert("Nie możesz usunąć tej sondy, bo nie należy do Ciebie")
             }
         })
 

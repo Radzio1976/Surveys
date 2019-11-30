@@ -17,7 +17,7 @@ function Nav(props) {
                                 {
                                     isAuth ?
                                         <>
-                                            <button className="main-nav-login-button button logout-button" onClick={() => props.history.push("/my-surveys")}>Moje sondaże</button>
+                                            <button className="main-nav-login-button button my-surveys-button" onClick={() => props.history.push("/my-surveys")}>Moje sondaże</button>
                                             <button className="main-nav-login-button button logout-button" onClick={logout}>Wyloguj</button>
                                         </> :
                                         <>

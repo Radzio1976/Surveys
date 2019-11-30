@@ -29,7 +29,7 @@ class Home extends React.Component {
                         <article className="slider-left">
                             <h1 className="slider-title">Stwórz własny sondaż</h1>
                             <h3>Dzięki naszej stronie możesz zbadać opinię innych na interesujący Cię temat</h3>
-                            <div class="button_cont" align="center"><a class="example_a" href="/login" target="_blank" rel="nofollow noopener">Stwórz własną ankietę</a></div>
+                            <div class="button_cont" align="center"><a class="example_a" href="/add-survey" rel="nofollow noopener">Stwórz własną ankietę</a></div>
                         </article>
                         <div className="home-image">
                         </div>
