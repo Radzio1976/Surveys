@@ -1,32 +1,6 @@
 import React from "react";
 import axios from "axios";
 
-/*
-questions = [
-    {
-       index: 0,
-       ask:" Zapytanie",
-       answers: ["TAK","nie"] 
-    },
-    {
-       index: 1,
-       ask:" Zapytanie",
-       answers: ["TAK","nie"] 
-    },
-    {
-       index: 2,
-       ask:" Zapytanie",
-       answers: ["TAK","nie"] 
-    },
-    {
-       index: 3,
-       ask:" Zapytanie",
-       answers: ["TAK","nie"] 
-    }
-]
-
-*/
-
 class AddSurvey extends React.Component {
     state = {
         author: "",
