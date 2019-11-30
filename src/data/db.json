@@ -130,22 +130,6 @@
         }
       ],
       "id": 4
-    },
-    {
-      "user": "rosiak.marzena@tlen.pl",
-      "author": "Marzena",
-      "name": "Sonda samochodowa",
-      "questions": [
-        {
-          "ask": "Czy kupiłbyś BMW",
-          "answers": [
-            "NIE",
-            "NIE WIEM"
-          ],
-          "index": 0
-        }
-      ],
-      "id": 5
     }
   ],
   "answers": [
@@ -368,10 +352,30 @@
     },
     {
       "answers": [
+        "TAK",
+        "NIE WIEM",
+        "NIE",
+        "RACZEJ NIE"
+      ],
+      "surveyId": 1,
+      "id": 25
+    },
+    {
+      "answers": [
+        "TAK",
+        "NIE WIEM",
+        "NIE",
+        "RACZEJ NIE"
+      ],
+      "surveyId": 1,
+      "id": 26
+    },
+    {
+      "answers": [
         "NIE"
       ],
-      "surveyId": 5,
-      "id": 24
+      "surveyId": 4,
+      "id": 27
     }
   ],
   "users": [

@@ -122,7 +122,7 @@ class Survey extends React.Component {
         return (
             <AuthContext.Consumer>
                 {
-                    ({ isAuth, currentUser }) => {
+                    ({ isAuth }) => {
                         return (
                             <div className="survey-main">
                                 <h1>{this.state.author}</h1>
@@ -137,13 +137,15 @@ class Survey extends React.Component {
                                         // }
                                         return (
                                             <React.Fragment key={questionID}>
-                                                <h3 style={{ color: "white", marginTop: "5px", marginBottom: "5px" }}>{question.ask}</h3>
+                                                <h3 style={{ color: "white", marginTop: "10px", marginBottom: "10px" }}>{question.ask}</h3>
                                                 {
                                                     question.answers.map((answer, index) => {
                                                         return (
                                                             <React.Fragment key={index}>
-                                                                <input style={{ display: "block" }} type="radio" onChange={this.onChange} value={answer} name={questionID} defaultChecked={index === 0 ? true : false}></input>
-                                                                <label style={{ color: "white" }}>{answer}</label>
+                                                                <label className="survey-answer-container">{answer}
+                                                                    <input style={{ display: "block" }} type="radio" onChange={this.onChange} value={answer} name={questionID} defaultChecked={index === 0 ? true : false}></input>
+                                                                    <span class="checkmark"></span>
+                                                                </label>
                                                             </React.Fragment>
                                                         )
                                                     })
