@@ -1,5 +1,6 @@
 import React from 'react';
 import Axios from "axios";
+import { API_URL } from '../consts/API_URL';
 import prettyURLConverter from '../utils/prettyURLConverter';
 import { AuthContext } from '../App'
 import { Redirect } from 'react-router-dom'
@@ -11,7 +12,7 @@ class MySurveys extends React.Component {
 
     componentDidMount() {
         const mySurveys = this.state.mySurveys
-        Axios.get("http://localhost:3000/surveys").then((response) => {
+        Axios.get(API_URL + "/surveys").then((response) => {
             console.log(response.data)
             for (let i = 0; i < response.data.length; i++) {
                 if (response.data[i].user === localStorage.getItem('email')) {
@@ -23,6 +24,9 @@ class MySurveys extends React.Component {
             })
         })
     }
+
+
+
 
     goToPage = (page, obj = {}) => {
         this.props.history.push(page, obj)

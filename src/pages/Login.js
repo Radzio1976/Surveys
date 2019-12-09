@@ -1,5 +1,6 @@
 import React from "react";
 import Axios from "axios";
+import { API_URL } from '../consts/API_URL';
 import { Redirect } from 'react-router-dom'
 import { AuthContext } from '../App'
 
@@ -17,7 +18,7 @@ class Login extends React.Component {
 
     handleSubmit = (e, login) => {
         e.preventDefault()
-        Axios.get(`http://localhost:3000/users?password=${this.state.password}&email=${this.state.email}`).then((response) => {
+        Axios.get(`${API_URL}/users?password=${this.state.password}&email=${this.state.email}`).then((response) => {
             if (response.data.length === 0) {
                 this.setState({
                     error: "Nieprawidłowy login lub hasło"

@@ -1,120 +1,6 @@
 {
   "surveys": [
     {
-      "user": "rosiak.marzena@tlen.pl",
-      "author": "Marzena",
-      "name": "Sonda o psach",
-      "questions": [
-        {
-          "ask": "Czy lubisz się bawić ze swoim psem?",
-          "answers": [
-            "TAK",
-            "NIE",
-            "NIE WIEM"
-          ],
-          "index": 0
-        },
-        {
-          "ask": "Czy wspólne spacery sprawiają Ci radość?",
-          "answers": [
-            "NIE WIEM",
-            "TAK",
-            "NIE"
-          ],
-          "index": 1
-        },
-        {
-          "ask": "Czy często Twój pies Cię denerwuje?",
-          "answers": [
-            "NIE",
-            "TAK",
-            "RACZEJ NIE"
-          ],
-          "index": 2
-        },
-        {
-          "ask": "Czy Twój pies ma kompana-przyjaciela np. innego psa lub kota?",
-          "answers": [
-            "RACZEJ NIE",
-            " NIE",
-            " TAK"
-          ],
-          "index": 3
-        }
-      ],
-      "id": 1
-    },
-    {
-      "user": "rosiak.marzena@tlen.pl",
-      "author": "Marzena",
-      "name": "Sonda moja współpraca w grupie",
-      "questions": [
-        {
-          "ask": "Czy umiem- według Ciebie- dobrze współpracować w grupie?",
-          "answers": [
-            "TAK",
-            "NIE",
-            "NIE ZAUWAŻYŁEM, NIE WIEM"
-          ],
-          "index": 0
-        },
-        {
-          "ask": "Czy umiem dobrze słuchać innych osób w grupie?",
-          "answers": [
-            "NIE ZAUWAŻYŁEM, NIE WIEM",
-            "NIE",
-            "TAK"
-          ],
-          "index": 1
-        },
-        {
-          "ask": "Czy pracując w grupie jestem dobrą koleżanką, wspieram, pomagam, staram się budować wspólny cel?",
-          "answers": [
-            "TAK",
-            "NIE",
-            "NIE WIEM"
-          ],
-          "index": 2
-        }
-      ],
-      "id": 2
-    },
-    {
-      "user": "rosiak.marzena@tlen.pl",
-      "author": "Marzena",
-      "name": "O mnie",
-      "questions": [
-        {
-          "ask": "Czy jestem dla Ciebie dobrą koleżanką lub przyjaciółką?",
-          "answers": [
-            "TAK",
-            "NIE",
-            "NIE WIEM"
-          ],
-          "index": 0
-        },
-        {
-          "ask": "Czy kiedy masz problem wiesz, że Cię wysłucham, doradzę?",
-          "answers": [
-            "TAK",
-            "NIE",
-            "NIE WIEM"
-          ],
-          "index": 1
-        },
-        {
-          "ask": "Czy jestem osobą, z którą \"konie można kraść\"? Czyli i razem pracować i się bawić?",
-          "answers": [
-            "TAK",
-            "NIE",
-            "NIE WIEM"
-          ],
-          "index": 2
-        }
-      ],
-      "id": 3
-    },
-    {
       "user": "r.tomaszewski@gmail.com",
       "author": "Radek",
       "name": "Sonda samochodowa",
@@ -122,260 +8,113 @@
         {
           "ask": "Czy kupiłbyś BMW",
           "answers": [
-            "TAK",
             "NIE",
             "NIE WIEM"
           ],
           "index": 0
         }
       ],
-      "id": 4
+      "id": 1
+    }
+  ],
+  "ipAddresses": [
+    {
+      "ipAddress": "31.60.43.108",
+      "surveyId": 1,
+      "id": 1
     }
   ],
   "answers": [
     {
       "answers": [
-        "TAK",
-        "NIE WIEM",
-        "NIE",
-        "RACZEJ NIE"
+        "NIE"
       ],
       "surveyId": 1,
       "id": 1
     },
     {
       "answers": [
-        "TAK",
-        "TAK",
-        "NIE",
-        "RACZEJ NIE"
+        "NIE WIEM"
       ],
       "surveyId": 1,
       "id": 2
     },
     {
       "answers": [
-        "TAK",
-        "NIE WIEM",
-        "RACZEJ NIE",
-        "RACZEJ NIE"
+        "NIE"
       ],
       "surveyId": 1,
       "id": 3
     },
     {
       "answers": [
-        "NIE WIEM",
-        "NIE WIEM",
-        "NIE",
-        "RACZEJ NIE"
+        "NIE"
       ],
       "surveyId": 1,
       "id": 4
     },
     {
       "answers": [
-        "TAK",
-        "NIE WIEM",
-        "NIE",
-        " TAK"
+        "NIE WIEM"
       ],
       "surveyId": 1,
       "id": 5
     },
     {
       "answers": [
-        "NIE",
-        "NIE WIEM",
-        "NIE",
-        "RACZEJ NIE"
+        "NIE WIEM"
       ],
       "surveyId": 1,
       "id": 6
     },
     {
       "answers": [
-        "TAK",
-        "NIE WIEM",
-        "TAK",
-        "RACZEJ NIE"
+        "NIE WIEM"
       ],
       "surveyId": 1,
       "id": 7
     },
     {
       "answers": [
-        "TAK",
-        "NIE WIEM",
-        "NIE",
-        " TAK"
+        "NIE"
       ],
       "surveyId": 1,
       "id": 8
     },
     {
       "answers": [
-        "TAK",
-        "NIE WIEM",
-        "NIE",
-        " TAK"
+        "NIE"
       ],
       "surveyId": 1,
       "id": 9
     },
     {
       "answers": [
-        "TAK",
-        "NIE ZAUWAŻYŁEM, NIE WIEM",
-        "TAK"
+        "NIE WIEM"
       ],
-      "surveyId": 2,
+      "surveyId": 1,
       "id": 10
     },
     {
       "answers": [
-        "NIE ZAUWAŻYŁEM, NIE WIEM",
-        "NIE ZAUWAŻYŁEM, NIE WIEM",
-        "TAK"
+        "NIE"
       ],
-      "surveyId": 2,
+      "surveyId": 1,
       "id": 11
     },
     {
       "answers": [
-        "TAK",
-        "NIE ZAUWAŻYŁEM, NIE WIEM",
         "NIE"
       ],
-      "surveyId": 2,
+      "surveyId": 1,
       "id": 12
-    },
-    {
-      "answers": [
-        "TAK",
-        "NIE ZAUWAŻYŁEM, NIE WIEM",
-        "TAK"
-      ],
-      "surveyId": 2,
-      "id": 13
-    },
-    {
-      "answers": [
-        "TAK",
-        "TAK",
-        "TAK"
-      ],
-      "surveyId": 2,
-      "id": 14
-    },
-    {
-      "answers": [
-        "TAK",
-        "NIE WIEM",
-        "NIE",
-        "RACZEJ NIE"
-      ],
-      "surveyId": 1,
-      "id": 15
-    },
-    {
-      "answers": [
-        "TAK",
-        "TAK",
-        "TAK",
-        " NIE"
-      ],
-      "surveyId": 1,
-      "id": 16
-    },
-    {
-      "answers": [
-        "NIE WIEM",
-        "TAK",
-        "TAK",
-        " NIE"
-      ],
-      "surveyId": 1,
-      "id": 17
-    },
-    {
-      "answers": [
-        "TAK",
-        "TAK",
-        "TAK"
-      ],
-      "surveyId": 3,
-      "id": 18
-    },
-    {
-      "answers": [
-        "NIE",
-        "NIE",
-        "NIE"
-      ],
-      "surveyId": 3,
-      "id": 19
-    },
-    {
-      "answers": [
-        "TAK"
-      ],
-      "surveyId": 4,
-      "id": 20
     },
     {
       "answers": [
         "NIE WIEM"
       ],
-      "surveyId": 4,
-      "id": 21
-    },
-    {
-      "answers": [
-        "TAK",
-        "NIE WIEM",
-        "NIE",
-        "RACZEJ NIE"
-      ],
       "surveyId": 1,
-      "id": 22
-    },
-    {
-      "answers": [
-        "TAK",
-        "TAK",
-        "TAK",
-        " TAK"
-      ],
-      "surveyId": 1,
-      "id": 23
-    },
-    {
-      "answers": [
-        "TAK",
-        "NIE WIEM",
-        "NIE",
-        "RACZEJ NIE"
-      ],
-      "surveyId": 1,
-      "id": 25
-    },
-    {
-      "answers": [
-        "TAK",
-        "NIE WIEM",
-        "NIE",
-        "RACZEJ NIE"
-      ],
-      "surveyId": 1,
-      "id": 26
-    },
-    {
-      "answers": [
-        "NIE"
-      ],
-      "surveyId": 4,
-      "id": 27
+      "id": 13
     }
   ],
   "users": [

@@ -1,6 +1,7 @@
 import React from 'react';
 import Axios from "axios";
 import prettyURLConverter from '../utils/prettyURLConverter';
+import { API_URL } from '../consts/API_URL';
 
 class Home extends React.Component {
     state = {
@@ -8,7 +9,8 @@ class Home extends React.Component {
     }
 
     componentDidMount() {
-        Axios.get("http://localhost:3000/surveys").then((response) => {
+        Axios.get(API_URL + "/surveys/").then((response) => {
+            console.log(response)
             this.setState({
                 surveys: response.data
             })

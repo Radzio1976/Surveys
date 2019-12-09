@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import { API_URL } from '../consts/API_URL';
 import { AuthContext } from '../App'
 import { Redirect } from 'react-router-dom'
 
@@ -44,7 +45,7 @@ class Register extends React.Component {
             })
             return
         }
-        axios.post("http://localhost:3000/users/", { name: this.state.name, surname: this.state.surname, email: this.state.email, password: this.state.password }).then((response) => {
+        axios.post(API_URL + "/users/", { name: this.state.name, surname: this.state.surname, email: this.state.email, password: this.state.password }).then((response) => {
             this.props.history.push("/login")
         })
 

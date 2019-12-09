@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import { API_URL } from "../consts/API_URL";
 
 class AddSurvey extends React.Component {
     state = {
@@ -18,7 +19,7 @@ class AddSurvey extends React.Component {
 
     handleSubmit = (e) => {
         if (localStorage.getItem('email')) {
-            axios.post("http://localhost:3000/surveys/", { user: localStorage.getItem('email'), author: this.state.author, name: this.state.nameOfSurvey, questions: this.state.questions }).then((response) => {
+            axios.post(API_URL + "/surveys/", { user: localStorage.getItem('email'), author: this.state.author, name: this.state.nameOfSurvey, questions: this.state.questions }).then((response) => {
                 console.log(response)
                 this.props.history.push("/")
             })
